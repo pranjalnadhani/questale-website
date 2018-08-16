@@ -1,0 +1,67 @@
+.carousel-content {}
+
+.carousel-content .controls-set {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-content .controls-set .controls .chevron {
+  width: 24px;
+  margin-left: 48px;
+  border-radius: 50%;
+  padding: 9px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #5951ea;
+  border: 3px solid #5951ea;
+}
+
+.carousel-content .controls-set .controls .chevron:focus {
+  outline: none;
+}
+
+.carousel-content .carousel-slider {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.carousel-content .carousel-slider .slider-item {
+  padding: 40px;
+  margin: 48px 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.carousel-content .carousel-slider .slider-item:hover {
+    transform: scale(1.2);
+}
+
+.carousel-content .carousel-slider .slider-item .display-picture {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.carousel-content .carousel-slider .slider-item .name {
+  margin: 0 0 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #616161;
+}
+
+.carousel-content .carousel-slider .slider-item .designation {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #757575;
+}

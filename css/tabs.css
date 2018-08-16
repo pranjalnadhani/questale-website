@@ -1,0 +1,74 @@
+.tabbed-content {
+  margin-top: 64px;
+}
+
+.tabbed-content .tabs {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabbed-content .tabs .tab {
+  padding: 20px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  color: #757575;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tabbed-content .tabs .active {
+  color: #ffffff;
+  background-color: #9e9e9e;
+}
+
+.tabbed-content .content {
+  position: relative;
+  margin-top: 40px;
+}
+
+.tabbed-content .content .page {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tabbed-content .content .active {
+  opacity: 1;
+}
+
+.tabbed-content .content .page .title {
+  margin: 0 0 32px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.42;
+  color: #424242;
+}
+
+.tabbed-content .content .page p {
+  margin: 24px 0;
+  font-size: 16px;
+  line-height: 2;
+  color: #777777;
+}
+
+.tabbed-content .content .page ul {
+  margin-top: -12px;
+  padding-left: 24px;
+  font-size: 16px;
+  line-height: 2;
+  color: #777777;
+}
+
+

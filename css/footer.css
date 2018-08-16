@@ -1,0 +1,93 @@
+.footer {
+  padding: 480px 0 64px;
+  position: relative;
+}
+
+.footer .footer-bg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.footer,
+.footer a {
+  color: #ffffff;
+}
+
+.footer .footer-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer .footer-columns .footer-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer .footer-columns .footer-list .brand {
+  color: #ffffff;
+  margin: 0 0 32px;
+}
+
+.footer .footer-columns .footer-list .title {
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.footer .footer-columns .footer-list li {
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer .footer-columns .footer-social li {
+  border-radius: 50%;
+  margin-right: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px #ffffff;
+  transition: background-color 0.2s linear;
+}
+
+.footer .footer-columns .footer-social li:last-of-type {
+  margin-right: 0;
+}
+
+.footer .footer-columns .footer-social li:hover {
+  background-color: #ffffff;
+}
+
+.footer .footer-columns .footer-social li a {
+  width: 16px;
+  text-align: center;
+  padding: 12px;
+  transition: color 0.2s linear;
+}
+
+.footer .footer-columns .footer-social li a:hover {
+  color: #424242;
+}
+
+.footer .contact {
+  margin: 40px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.footer .contact table tr th {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.footer .contact table tr th,
+.footer .contact table tr td {
+  padding: 20px 24px 20px 0;
+}

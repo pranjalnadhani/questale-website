@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "AxiformaRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./Axiforma-Regular.eot");
+  src: url("./Axiforma-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./Axiforma-Regular.woff2") format("woff2"),
+    url("./Axiforma-Regular.woff") format("woff"),
+    url("./Axiforma-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AxiformaMedium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./Axiforma-Medium.eot");
+  src: url("./Axiforma-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./Axiforma-Medium.woff2") format("woff2"),
+    url("./Axiforma-Medium.woff") format("woff"),
+    url("./Axiforma-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AxiformaSemiBold";
+  src: url("./axiformasemibold.eot");
+  src: url("./axiformasemibold.eot?#iefix") format("embedded-opentype"),
+    url("./axiformasemibold.woff2") format("woff2"),
+    url("./axiformasemibold.woff") format("woff"),
+    url("./axiformasemibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AxiformaBold";
+  font-style: bold;
+  font-weight: 700;
+  src: url("./Axiforma-Bold.eot");
+  src: url("./Axiforma-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./Axiforma-Bold.woff2") format("woff2"),
+    url("./Axiforma-Bold.woff") format("woff"),
+    url("./Axiforma-Bold.ttf") format("truetype");
+}
