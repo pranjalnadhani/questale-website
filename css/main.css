@@ -81,6 +81,7 @@ hr {
   max-width: 376px;
   font-size: 20px;
   line-height: 1.7;
+  opacity: 0.8;
   color: #757575;
 }
 
@@ -116,6 +117,7 @@ hr {
   font-size: 20px;
   line-height: 1.5;
   color: #757575;
+  opacity: 0.8;
 }
 
 .half-container {
@@ -480,6 +482,13 @@ hr {
   color: #ff7000;
   border-radius: 4px;
   border: 2px solid #ff7000;
+  transition: all 0.2s ease-out;
+}
+
+.hero .cta-set .free-sample-cta:hover {
+  color: #ffffff;
+  background-color: #ff7000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .common-search {
@@ -541,7 +550,7 @@ hr {
 }
 
 .home-vp-points .cta {
-  margin: 96px auto 0;
+  margin: 80px auto 16px;
   padding: 26px 0;
   max-width: 384px;
   display: block;
@@ -555,16 +564,23 @@ hr {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   background-color: #ff7000;
-  box-shadow: 0 12px 32px 0 rgba(114, 98, 251, 0.1);
+  border: 2px solid #ff7000;
+  transition: all 0.2s ease-out;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.home-vp-points .cta:hover {
+  color: #ff7000;
+  background-color: #ffffff;
 }
 
 .search-terms-carousel {
-  margin: 256px 0 512px;
+  margin: 512px 0 0;
 }
 
 .search-terms-carousel .bg-image {
   position: absolute;
-  top: 2600px;
+  top: 2856px;
   left: 0;
   z-index: -1;
 }
@@ -590,10 +606,12 @@ hr {
 
 .search-terms-carousel .carousel-content .carousel-slider .slider-item .name {
   margin: 0 0 24px;
+  font-size: 20px;
 }
 
 .search-terms-carousel .carousel-content .carousel-slider .slider-item .designation {
   margin: 0;
+  font-size: 16px;
   letter-spacing: 3px;
   text-transform: uppercase;
 }

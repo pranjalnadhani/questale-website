@@ -7,7 +7,7 @@
     if (defaultSelectedPageNode) {
       pagesContainerNode.style.height = defaultSelectedPageNode.offsetHeight + 'px';
     }
-  }, 10);
+  }, 1);
 })();
 
 function onTabSelected(elem) {
